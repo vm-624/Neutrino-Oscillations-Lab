@@ -1,0 +1,33 @@
+name: ParticlePhysicsLabsEnvironment
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - matplotlib
+
+  # Development & IDE
+  - spyder
+  - spyder-notebook
+
+  # Machine learning / fitting
+  - zfit
+  - scikit-learn
+  - xgboost
+
+  # Optional: useful extras
+  - jupyterlab
+  - black
+  - pylint
+
+  # Pip section for packages not in Conda (if needed later)
+  - pip
+  - pip:
+      # Example: add pip-only packages here
+      # - some-pip-only-package
+      

@@ -1,0 +1,4 @@
+{
+    "python.defaultInterpreterPath": "/opt/miniconda3/envs/ParticlePhysicsLabsEnvironment/bin/python",
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}
