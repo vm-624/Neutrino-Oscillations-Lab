@@ -1,0 +1,9 @@
+# Data files are too big for GitHub (100 MB limit) - get them from SharePoint/OneDrive
+*.pkl
+
+# macOS clutter
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
